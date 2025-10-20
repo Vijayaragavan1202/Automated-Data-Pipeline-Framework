@@ -1,0 +1,19 @@
+# Core Framework
+streamlit==1.38.0
+
+# Data Handling
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning & Preprocessing
+scikit-learn==1.5.1
+
+# Visualization
+plotly==5.22.0
+
+# Optional Utilities
+altair==5.3.0
+pyarrow==16.1.0
+
+# For performance and caching
+tqdm==4.66.4
