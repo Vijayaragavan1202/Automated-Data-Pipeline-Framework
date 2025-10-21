@@ -11,7 +11,7 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 # -----------------------------
 # Streamlit Page Configuration
 # -----------------------------
-st.set_page_config(page_title="Intelligent Data Assistant", layout="wide")
+st.set_page_config(page_title="PrepCSV", layout="wide")
 
 
 # -----------------------------
@@ -176,7 +176,7 @@ def generate_processing_code(
 # -----------------------------
 # Sidebar Controls
 # -----------------------------
-st.sidebar.title("Intelligent Data Assistant")
+st.sidebar.title("PrepCSV")
 st.sidebar.markdown("### 1) Upload CSV")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type=["csv"])
 
@@ -267,7 +267,8 @@ else:
 # -----------------------------
 # Main Page - Dashboard & Results
 # -----------------------------
-st.title("Intelligent Data Assistant")
+st.title("PrepCSV")
+st.caption("Clean, encode, and export in a click.")
 
 if raw_df is None:
     st.info("Upload a CSV file from the sidebar to get started.")
@@ -468,5 +469,4 @@ else:
                 st.session_state.scaler_choice,
             )
             st.code(code_str, language="python")
-
 
