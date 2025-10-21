@@ -1,6 +1,5 @@
-streamlit==1.38.0
-   pandas==2.2.2
-   pyarrow
-   openpyxl
-   python-docx
-   Pillow
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+plotly>=5.15
