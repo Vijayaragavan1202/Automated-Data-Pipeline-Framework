@@ -14,6 +14,7 @@ The Intelligent Data Assistant provides an interactive interface to upload datas
 - Feature scaling (StandardScaler or MinMaxScaler)
 - Exploratory data analysis (EDA) through interactive visualizations
 - Python code generation for the entire preprocessing workflow
+- Python code can be generated in the preset ollama model locally as well.
 
 The application significantly reduces manual effort and promotes consistency in data handling across multiple projects.
 
